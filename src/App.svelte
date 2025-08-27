@@ -24,7 +24,7 @@ import { onMount } from 'svelte';
     async function fetchLyrics(url) {
         try {
             // Call the Netlify function and pass the song URL as a query parameter
-            const response = await fetch(`/.netlify/functions/fetch-lyrics?url=${encodeURIComponent(url)}`);
+            const response = await fetch(`/functions/fetch-lyrics?url=${encodeURIComponent(url)}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch lyrics via proxy.');
             }

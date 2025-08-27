@@ -1,4 +1,3 @@
-// file: netlify/functions/fetch-lyrics.js
 import fetch from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
