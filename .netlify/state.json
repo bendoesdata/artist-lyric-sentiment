@@ -1,0 +1,21 @@
+{
+	"siteId": "40b6171d-da17-435e-b093-000c9d49a597",
+	"geolocation": {
+		"data": {
+			"city": "Burlington",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "VT",
+				"name": "Vermont"
+			},
+			"timezone": "America/New_York",
+			"latitude": 44.4507,
+			"longitude": -73.0807,
+			"postalCode": "05405"
+		},
+		"timestamp": 1756318014226
+	}
+}
